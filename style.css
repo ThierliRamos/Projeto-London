@@ -1,0 +1,1029 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    width: 100%;
+    background: #f5f7ff;
+    overflow-x: hidden;
+}
+
+nav
+{
+    position: absolute;
+    background: white;
+    height: 10vh;
+    width: 100%;
+    font-size: 18px;
+}
+
+/* nome Logo */
+
+.logo
+{
+    position: absolute;
+    font-size: 4.5vh;
+    top: 9px;
+    margin-left: 70px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* img de london/principal */
+
+.img1
+{
+    position: absolute;
+    top: 50px;
+    display: block;
+}
+
+/* icone location ao lado da LOGO */
+.img2
+{
+    position: absolute;
+    top: 12px;
+    margin-left: 32px;
+}
+
+/* botão de pesquisa */
+.img3 
+{
+    position: absolute;
+    top: 10px;
+    left: 1280px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(156, 155, 155)); 
+    max-height: 120px;
+    z-index: 1;
+    outline: none;
+}
+
+/* as imagens dos icones */
+
+.flight
+{
+    position: absolute;
+    top: 3px;
+    left: 2px;
+}
+
+/* botão de pesquisa no topo */
+
+.search-box
+{
+    position: absolute;
+    top: 40%;
+    left: 88%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    width: 160px;
+    height: 24px;
+    border-radius: 3px;
+    padding: 1px;
+    outline: none;
+}
+
+.search-box:hover > .search-txt
+{
+    width: 172px;
+    padding: 0 6px;
+    background: #fff;
+}
+
+/* div que mexe no flight etc */
+
+.linha
+{
+    align-items: center;
+    background-position: center center;
+    right: 212px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 29vh;
+    width: 885px;
+    top: 188px;
+    list-style: none;
+    flex-flow: row wrap;
+    padding: 0px;
+}
+
+.linha a
+{
+    list-style: none;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    top: 15%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.icons
+{
+    position: absolute;
+    display: block;
+}
+
+/* nomes dos menus flight/hotel/rental */
+  
+.coluna-33
+{
+    width: 33.333%;
+    margin-top: -150px;
+    height: 5vh;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-around;
+    background-color: #000;
+}
+
+.coluna-33:hover
+{
+    background-color: #FF6347;
+    color: #fff;
+}
+
+/* img do avião */
+
+.img4
+{
+    position: absolute;
+    top: 193px;
+    margin-left: 348px;
+}
+
+/* img da cama */
+
+.img5
+{
+    position: absolute;
+    top: 193px;
+    margin-left: 643px;
+}
+
+/* img do carro */
+
+.img6
+{
+    position: absolute;
+    top: 194px;
+    margin-left: 938px;
+}
+
+#divBusca
+{
+    background-color: #fff;
+    border: solid 1px #C0C0C0;
+    position: absolute;
+    top: 282px;
+    margin-left: 258px;
+    border-radius: 0px;
+    width: 418px;
+    outline: none;
+}
+
+#txtBusca
+{
+    float: left;
+    background-color: transparent;
+    padding-left: 8px;
+    font-style: normal;
+    font-size: 14px;
+    border: none;
+    height: 32px;
+    width: 418px;
+    outline: none;
+}
+
+#divBusca2
+{
+    background-color: #fff;
+    border: solid 1px #C0C0C0;
+    position: absolute;
+    top: 282px;
+    margin-left: 695px;
+    border-radius: 0px;
+    width: 418px;
+    outline: none;
+}
+
+#txtBusca2
+{
+    float: left;
+    background-color: transparent;
+    padding-left: 8px;
+    font-style: normal;
+    font-size: 14px;
+    border: none;
+    height: 32px;
+    width: 418px;
+    outline: none;
+}
+
+/* nome Travel World */
+
+.center
+{
+    position: absolute;
+    top: 219px;
+    font-size: 22px;
+    opacity: 100%;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 246px;
+    color: #000;
+    background: #fff;
+    width: 885px;
+    height: 147px;
+    padding-left: 10px;
+}
+
+.center a
+{
+    position: absolute;
+    top: 10px;
+}
+
+.from
+{
+    position: absolute;
+    top: 265px;
+    margin-left: 258px;
+    font-size: 14px;
+    font-family: 'Raleway';
+    opacity: 88%;
+}
+
+.to
+{
+    position: absolute;
+    top: 265px;
+    margin-left: 696px;
+    font-size: 14px;
+    font-family: 'Raleway';
+    opacity: 88%;
+}
+
+/* botão do search */
+
+.button
+{
+    background: #696969;
+    position: absolute;
+    top: 325px;
+    margin-left: 258px;
+    border-style: outset;
+    border: none;
+    height: 30px;
+    width: 170px; 
+    padding-left: 18px; 
+    padding-top: 3px;
+    text-shadow: none; 
+}
+
+.button:hover
+{
+    background: #FF6347;
+}
+
+/* palavra do botão search */
+
+.button a
+{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.good
+{
+    position: absolute;
+    color: #000;
+    top: 530px;
+    left: 155px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* good offers */
+
+.good p
+{
+    font-size: 24px;
+}
+
+/* up 50% discount */
+
+.good a
+{
+    position: absolute;
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+/* imagem Cinque Terre*/
+
+.imgs
+
+{
+    position: relative;
+    list-style: none;
+}
+
+.img00
+{
+    position: absolute;
+    top: 598px;
+    left: 155px;
+}
+
+/* nome Cenque Terre */
+
+.imgs li a
+{
+    position: absolute;
+    top: 915px;
+    left: 171px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* imagem New York*/
+
+.imgss
+{
+    position: relative;
+    list-style: none;
+}
+
+.img11
+{
+    position: absolute;
+    top: 598px;
+    left: 688px;
+    width: 250px;
+    height: 165px;
+}
+
+/* nome New York */
+
+.imgss li a 
+{
+    position: absolute;
+    top: 735px;
+    left: 702px;
+    font-size: 18px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* imagem San Francisco*/
+
+.imgsss
+{
+    position: relative;
+    list-style: none;
+}
+
+.img12
+{
+    position: absolute;
+    top: 598px;
+    left: 952px;
+    width: 255px;
+    height: 165px;
+}
+
+/* nome San Francisco */
+
+.imgsss li a 
+{
+    position: absolute;
+    top: 735px;
+    left: 968px;
+    font-size: 17.7px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* imagem pisa*/
+
+.imgs22
+{
+    position: relative;
+    list-style: none;
+}
+
+.img13
+{
+    position: absolute;
+    top: 775px;
+    left: 688px;
+    width: 250px;
+    height: 165px;
+}
+
+/* nome Pisa */
+
+.imgs22 li a 
+{
+    position: absolute;
+    top: 911px;
+    left: 705px;
+    font-size: 18px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* imagem Paris*/
+
+.imgs33
+{
+    position: relative;
+    list-style: none;
+}
+
+.img14
+{
+    position: absolute;
+    top: 775px;
+    left: 952px;
+    width: 255px;
+    height: 165px;
+}
+
+/* nome Paris */
+
+.imgs33 li a 
+{
+    position: absolute;
+    top: 911px;
+    left: 969px;
+    font-size: 15.5px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* explore nature */
+
+.nature
+{
+    position: absolute;
+    color: #000;
+    top: 970px;
+    left: 155px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nature p
+{
+    font-size: 24px;
+}
+
+/* travel with */
+
+.nature a
+{
+    position: absolute;
+    width: 15rem;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* imagem ocean */
+
+.ocean
+{
+    position: absolute;
+    top: 1047px;
+    left: 155px;
+    background-color: white;
+    width: 520px;
+    height: 420px;
+    padding: 0px 0px 180px;
+    display: flex;
+    gap: 15px;
+}
+
+.ocean a
+{
+    position: absolute;
+    top: 260px;
+    left: 15px;
+    font-size: 22.5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ocean p
+{
+    position: absolute;
+    top: 305px;
+    left: 15px;
+    font-size: 14.2px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+
+.ocean p sub
+{
+    position: absolute;
+    top: 1px;
+}
+
+.ocean li
+{
+    position: absolute;
+    top: 340px;
+    left: 15px;
+    font-size: 14.7px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* botão buy da imagem ocean */
+
+.buy
+{
+    position: relative;
+    top: 1420px;
+    left: 175px;
+    width: 100px;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    background: #fff;
+    position: absolute;
+    border-style: outset;
+    border: none;
+    height: 30px;
+    text-shadow: none; 
+}
+
+.buy a
+{
+    position: absolute;
+    font-size: 14.7px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #000;
+    justify-content: center;
+    padding: 6px;
+    margin-left: 5px;
+}
+
+.buy:hover
+{
+    background-color: #FF6347;
+    color: #000;
+}
+
+/* imagem da montanha e seus complementos */
+
+.mountain
+{
+    position: relative;
+    top: 1047px;
+    left: 688px;
+    background-color: white;
+    width: 520px;
+    height: 420px;
+    padding: 0px 0px 180px;
+    display: flex;
+    gap: 15px;
+}
+
+
+.mountain a
+{
+    position: absolute;
+    top: 260px;
+    left: 15px;
+    font-size: 22.5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mountain p
+{
+    position: absolute;
+    top: 305px;
+    left: 15px;
+    font-size: 14.2px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+
+.mountain p sub
+{
+    position: absolute;
+    top: 1px;
+}
+
+.mountain li
+{
+    position: absolute;
+    top: 340px;
+    left: 15px;
+    font-size: 14.7px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* botão de buy da mountain */
+
+.buytwo
+{
+    position: relative;
+    top: 1420px;
+    left: 708px;
+    width: 100px;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    background: #fff;
+    position: absolute;
+    height: 30px;
+}
+
+.buytwo a
+{
+    position: absolute;
+    font-size: 14.7px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #000;
+    justify-content: center;
+    padding: 6px;
+    margin-left: 5px;
+}
+
+.buytwo:hover
+{
+    background-color: #FF6347;
+    color: #000;
+}
+
+/* barra de 'get the best offers fisrt' */
+
+.get 
+{
+    position: absolute;
+    top: 1495px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 155px;
+    width: 1055px;
+    height: 250px;
+    background: #696969;
+}
+
+.get a
+{
+    position: absolute;
+    top: 25px;
+    color: #fff;
+    left: 15px;
+    font-size: 29.5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.get p
+{
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    font-size: 14.2px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.get input
+{
+    position: absolute;
+    background-color: #fff;
+    border: solid 5px #C0C0C0;
+    border-style: outset;
+    top: 140px;
+    margin-left: 15px;
+}
+
+/* barra de your email address*/
+
+#txtget
+{
+    float: left;
+    color: #000;
+    padding-left: 8px;
+    font-style: normal;
+    font-size: 14.8px;
+    border: none;
+    height: 32px;
+    width: 1025px;
+    outline: none;
+}
+
+/* barra subscribe */
+
+.subs
+{
+    position: relative;
+    top: 1685px;
+    left: 170px;
+    width: 100px;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    background: #FF6347;
+    position: absolute;
+    height: 30px;
+}
+
+.subs a
+{
+    position: absolute;
+    font-size: 14.7px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+    padding: 6px;
+    margin-left: 7px;
+}
+
+.subs:hover
+{
+    background: #000;
+}
+
+/* contato */
+
+.contact a
+{
+    position: absolute;
+    top: 1780px;
+    left: 155px;
+    font-size: 22.5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact p
+{
+    position: absolute;
+    top: 1830px;
+    left: 155px;
+    font-size: 14.2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact li
+{
+    position: absolute;
+    top: 1870px;
+    left: 188px;
+    font-size: 14.7px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+}
+
+.contact input
+{
+    position: absolute;
+    background-color: #fff;
+    border: solid 1px #C0C0C0;
+    border-style: outset;
+    top: 1980px;
+    left: 155px;
+}
+
+/* barra de name/email/message */
+
+#contat
+{
+    color: #000;
+    padding-left: 8px;
+    font-style: normal;
+    font-size: 14.8px;
+    height: 45px;
+    width: 1055px;
+    outline: none;
+}
+
+#contato
+{
+    color: #000;
+    padding-left: 8px;
+    font-style: normal;
+    font-size: 14.8px;
+    height: 45px;
+    width: 1055px;
+    top: 2040px;
+    outline: none;
+}
+
+#contatos
+{
+    color: #000;
+    padding-left: 8px;
+    font-style: normal;
+    font-size: 14.8px;
+    height: 45px;
+    width: 1055px;
+    top: 2100px;
+    outline: none;
+}
+
+/* botão send message */
+
+.send
+{
+    position: relative;
+    top: 2160px;
+    left: 155px;
+    width: 140px;
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+    position: absolute;
+    height: 30px;
+}
+
+.send a
+{
+    position: absolute;
+    font-size: 14.7px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+    padding: 7px;
+    margin-left: 7px;
+}
+
+.send:hover
+{
+    background: #FF6347;
+}
+
+/* nome Find us on... e icons */
+
+.find
+{
+    position: relative;
+    top: 2200px;
+    left: 640px;
+    width: 140px;
+    position: absolute;
+    height: 30px;
+}
+
+.find a
+{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    justify-content: center;
+}
+
+.cntt
+{
+    position: absolute;
+    top: 1868px;
+    left: 155px;
+    letter-spacing: 5px;
+}
+
+.cntt .img8
+{
+    position: absolute;
+    top: 37px;
+    left: 3px;
+}
+
+.cntt .img9
+{
+    position: absolute;
+    top: 72px;
+    left: 3px;
+}
+
+/* redes sociais */
+
+.redes
+{
+    position: absolute;
+    top: 2250px;
+    left: 613px;
+}
+
+.redes .face
+{
+    background: #fff;
+    width: 20px;
+}
+
+.redes .insta
+{
+    background: #fff;
+    width: 20px;
+}
+
+.redes .snap
+{
+    background: #fff;
+    width: 20px;
+}
+
+.redes .pinte
+{
+    background: #fff;
+    width: 20px;
+}
+
+.redes .twitter
+{
+    background: #fff;
+    width: 20px;
+}
+
+.redes .in
+{
+    background: #fff;
+    width: 20px;
+}
+
+.redes .face:hover
+{
+    background: #0000FF;
+    border-radius: 2.8px;
+}
+.redes .insta:hover
+{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 35%,#dc2743 50%,#cc2366 70%,#bc1888 50%);
+    border-radius: 5px; 
+}
+
+.redes .snap:hover
+{
+    background: linear-gradient(120deg, #FFFc00, #FFFFFF);
+    border-radius: 10px;
+}
+.redes .pinte:hover
+{
+    background: #e7472b;
+    border-radius: 5px;
+}
+.redes .twitter:hover
+{
+    background: #00BFFF;
+    border-radius: 5px;
+}
+.redes .in:hover
+{
+    background: #1E90FF;
+    border-radius: 3px;
+}
+
+/* fim da pagina */
+
+.fim
+{
+    position: relative;
+    top: 1880px;
+    left: 570px;
+    width: 240px;
+    height: 30px;
+    height: 70px;
+}
+
+.fim p
+{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    justify-content: center;
+    padding: 25px;
+    top: -20px;
+}
+
+.fim .name a
+{
+    color: gray;
+}
